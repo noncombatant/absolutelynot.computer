@@ -53,7 +53,25 @@ cache, such as with the <code>CLFLUSH</code> instruction).</p>
 </ul>
 </dd>
 
-<p>TODO: original, Half-Double, Worsening Physics, et c.</p>
+<dt><a
+href="https://security.googleblog.com/2021/05/introducing-half-double-new-hammering.html">Half-Double</a></dt>
+
+<dd>
+
+<p>Shows that as process scale goes down, the ‘range’ of hammering increases,
+making Rowhammer attacks a bit more practical: the ‘aggressor’ row need not be
+immediately adjacent to the ‘victim’ row(s).</p>
+
+<ul>
+<li><a
+href="https://github.com/google/hammer-kit/blob/main/20210525_half_double.pdf">Paper</a></li>
+<li>More generally, the <a href="https://github.com/google/hammer-kit">team’s
+HammerKit</a>: tools for exploiting Rowhammer on Chrome OS systems</li>
+</ul>
+
+</dd>
+
+<p>TODO: original, TRResspass, Worsening Physics, et c.</p>
 
 <h2>Firmware Fails</h2>
 
