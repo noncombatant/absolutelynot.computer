@@ -13,7 +13,7 @@ even hypothetically-perfect software attackable: for example, even if the
 software has no spatial memory unsafety bugs, microarchitectural side-channels
 can provide an arbitrary read primitive, and Rowhammer can provide an arbitrary
 write primitive — just as if there <i>were</i> spatial memory unsafety. These
-attacks typically work across harware-defined privilege boundaries.</p>
+attacks typically work across hardware-defined privilege boundaries.</p>
 
 <p>This bibliography is inspired by the <a
 href="https://www.freehaven.net/anonbib/">anonbib</a>, a bibliography of work on
@@ -29,28 +29,34 @@ Github</a>. Licensed under the Creative Commons Zero v1.0 Universal license.</p>
 
 <p>TODO: Cross-boundary leakage</p>
 
+<dl>
+
 <dt><a href="https://leaky.page/">leaky.page</a></dt>
 
-<dd>TODO: Description
+<dd><p>TODO: Description</p></dd>
 
 <dt><a href="https://meltdownattack.com/">Meltdown</a> and <a
 href="https://spectreattack.com/">Spectre</a></dt>
 
-<dd>TODO: Description</dd>
+<dd><p>TODO: Description</p></dd>
 
 <dt><a href="https://mdsattacks.com/">Microarchitectural Data Sampling</a>
 (MDS)</dt>
 
-<dd>L1DES, VRS, LVI, Snoop, CrossTalk (SRBDS), TAA, RIDL, Fallout (TODO: expand all
-acronyms) TODO: Description</dd>
+<dd><p>L1DES, VRS, LVI, Snoop, CrossTalk (SRBDS), TAA, RIDL, Fallout (TODO:
+expand all acronyms) TODO: Description</p></dd>
 
 <dt><a href="https://m1racles.com/">M1racles</a></dt>
 
-<dd>Not actually all that serious, but fun. TODO: description</dd>
+<dd><p>Not actually all that serious, but fun. TODO: description</p></dd>
+
+</dl>
 
 <h2>Ruh-Row-hammer</h2>
 
 <p><a href="https://dramsec.ethz.ch/">DRAM Security workshop, June 2021</a></p>
+
+<dl>
 
 <dt><a href="https://www.vusec.net/projects/smash/">SMASH</a></dt>
 
@@ -98,26 +104,36 @@ to SMASH.</p>
 
 </dd>
 
+</dl>
+
 <p>TODO: original, Worsening Physics, et c.</p>
 
 <h2>Firmware Fails</h2>
+
+<dl>
 
 <dt><a
 href="https://travisdowns.github.io/blog/2021/06/17/rip-zero-opt.html">Your CPU
 May Have Slowed Down on Wednesday</a></dt>
 
-<dd>Really microcode, not firmware, as a response to <a
+<dd><p>Really microcode, not firmware, as a response to <a
 href="https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00464.html">another
 side-channel leakage</a>. How to categorize? We should probably reserve this
-section for actual bugs in microcode and firmware. TODO</dd>
+section for actual bugs in microcode and firmware. TODO</p></dd>
+
+</dl>
 
 <h2>Architectural Aggravations</h2>
 
 <h3>Accidentally Turing-Complete</h3>
 
-<p><a href="https://www.cs.dartmouth.edu/~sws/pubs/bbss13.pdf">The Page-Fault
+<dl>
+
+<dt><a href="https://www.cs.dartmouth.edu/~sws/pubs/bbss13.pdf">The Page-Fault
 Weird Machine: Lessons in Instruction-less Computation Julian Bangert, Sergey
-Bratus, Rebecca Shapiro, Sean W. Smith</a> TODO</p>
+Bratus, Rebecca Shapiro, Sean W. Smith</a></dt>
+
+<dd><p>TODO</p></dd>
 
 <h3>System Management Mode</h3>
 
@@ -127,14 +143,21 @@ Bratus, Rebecca Shapiro, Sean W. Smith</a> TODO</p>
 
 <p>TODO</p>
 
-<h2>Extracting Secrets</h2>
+<h2>Stealing Secrets</h2>
 
-<p><a href="https://twitter.com/_markel___/status/1458147735270481926">Mark
+<dl>
+
+<dt><a href="https://twitter.com/_markel___/status/1458147735270481926">Mark
 Ermolov’s tweet</a> announcing <a
-href="https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00528.html">CVE-2021-0146</a>.
-TODO</p>
+href="https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00528.html">CVE-2021-0146</a></dt>
 
-<p><a href="https://github.com/quarkslab/titanm">Melotti, Bellom, and Teuwen’s
-Titan M reverse engineering tools and resuts</a> TODO</p>
+<dd><p>TODO</p></dd>
+
+<dt><a href="https://github.com/quarkslab/titanm">Melotti, Bellom, and Teuwen’s
+Titan M reverse engineering tools and resuts</a></dt>
+
+<dd><p>TODO</p></dd>
+
+</dl>
 
 <script src="toc.js"></script>
